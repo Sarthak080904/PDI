@@ -1,0 +1,24 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "root123",
+    "database": "inspection_reports",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "logging": false
+  },
+  "test": {
+    "username": "postgres",
+    "password": "root123",
+    "database": "inspection_reports",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "root123",
+    "database": "inspection_reports",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}

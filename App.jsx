@@ -1,0 +1,43 @@
+import { ReportProvider } from './contexts/ReportContext';
+import HeaderSection from './components/HeaderSection';
+import IdentificationSection from './components/IdentificationSection';
+import InspectionTable from './components/InspectionTable';
+import FooterSection from './components/FooterSection';
+import TemplateManager from './components/TemplateManager';
+import ReportExporter from './components/ReportExporter';
+import SaveButton from './components/SaveButton'; // New component
+import './App.css';
+
+function App() {
+  return (
+    <ReportProvider>
+      <div className="app-container">
+        <header className="app-header">
+          <div className="logo-container">
+            <img src="https://cdn.thingsup.io/wp-content/uploads/2020/05/Transparent.png.webp" alt="Company Logo" className="logo" />
+          </div>
+          <h1>Pre-Dispatch Inspection Report</h1>
+          <div className="header-actions">
+          </div>
+        </header>
+        <nav className="app-nav">
+          <TemplateManager /> {/* Template management component */}
+        </nav>
+        
+        <main className="app-content">
+          <HeaderSection />
+          <IdentificationSection />
+          <InspectionTable />
+          <FooterSection />
+        </main>
+        
+        <footer className="app-footer">
+          <SaveButton /> {/* Added save button */}
+          <ReportExporter />
+        </footer>
+      </div>
+    </ReportProvider>
+  );
+}
+
+export default App;
