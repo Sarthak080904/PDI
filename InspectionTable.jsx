@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
-import { useReportContext } from '../contexts/ReportContext';
-import ColumnConfigEditor from './ColumnConfigEditor';
+import { useReportContext } from 'ReportContext.jsx';
+import ColumnConfigEditor from 'ColumnConfigEditor.jsx';
 import { FaTrash, FaPlus, FaCog } from 'react-icons/fa';
 
 const InspectionTable = () => {
