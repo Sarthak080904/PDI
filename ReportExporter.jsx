@@ -1,5 +1,5 @@
 import React from 'react';
-import { useReportContext } from '../contexts/ReportContext';
+import { useReportContext } from 'ReportContext.jsx';
 import jsPDF from 'jspdf';
 import 'jspdf-autotable';
 import * as XLSX from 'xlsx';
