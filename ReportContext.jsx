@@ -1,7 +1,7 @@
 import React, { createContext, useState, useContext, useEffect } from 'react';
 import { v4 as uuidv4 } from 'uuid';
-import { fetchTemplates, saveReport, saveTemplate as apiSaveTemplate, deleteTemplate as apiDeleteTemplate } from '../api';
-import defaultTemplate from '../templates/defaultTemplate';
+import { fetchTemplates, saveReport, saveTemplate as apiSaveTemplate, deleteTemplate as apiDeleteTemplate } from 'api.js';
+import defaultTemplate from 'defaultTemplate.js';
 
 const ReportContext = createContext();
 
