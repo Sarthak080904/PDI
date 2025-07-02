@@ -1,12 +1,12 @@
-import { ReportProvider } from './contexts/ReportContext';
-import HeaderSection from './components/HeaderSection';
-import IdentificationSection from './components/IdentificationSection';
-import InspectionTable from './components/InspectionTable';
-import FooterSection from './components/FooterSection';
-import TemplateManager from './components/TemplateManager';
-import ReportExporter from './components/ReportExporter';
-import SaveButton from './components/SaveButton'; // New component
-import './App.css';
+import { ReportProvider } from 'ReportContext.jsx';
+import HeaderSection from 'HeaderSection.jsx';
+import IdentificationSection from 'IdentificationSection.js';
+import InspectionTable from 'InspectionTable.jsx';
+import FooterSection from 'FooterSection.jsx';
+import TemplateManager from 'TemplateManager.jsx';
+import ReportExporter from 'ReportExporter.jsx';
+import SaveButton from 'SaveButton.jsx'; // New component
+import 'App.css';
 
 function App() {
   return (
