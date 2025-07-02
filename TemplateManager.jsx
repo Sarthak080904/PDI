@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { useReportContext } from '../contexts/ReportContext';
+import { useReportContext } from 'ReportContext.jsx';
 import { FaSave, FaTimes, FaEdit, FaTrash } from 'react-icons/fa';
-import { defaultTemplate } from '../templates/defaultTemplate';
+import { defaultTemplate } from 'defaultTemplate.js';
 
 const TemplateManager = () => {
   const {
