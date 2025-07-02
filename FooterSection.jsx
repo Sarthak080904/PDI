@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { useReportContext } from '../contexts/ReportContext';
+import { useReportContext } from 'ReportContext.jsx';
 import SignatureCanvas from 'react-signature-canvas';
 
 const FooterSection = () => {
